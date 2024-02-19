@@ -37,6 +37,7 @@ video {
     height: 13vh;
     position: fixed;
     opacity: 90%;
+    font-family: "Protest Strike", sans-serif;
 }
 
 
@@ -45,6 +46,7 @@ video {
     background-color: black;
     color: white;
     width: 100vw;
+    z-index: 1000;
     
 }
 
@@ -137,7 +139,7 @@ h4{
     align-content: flex-start;
     align-items: center;
     padding-bottom: 70px;
-    color: #FBBF07;
+    color: red;
 
 }
 
@@ -155,6 +157,7 @@ h4{
 
 .tablas{
     display: flex;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 
@@ -208,185 +211,33 @@ ul.rr{
 
 
 
-.actualizaciones{
-    background-color: #131A1D;
-    width: 100vw;
-    height: 100vh;
-}
-
-.texto_actualizaciones{
-    display: flex;
-    font-size: 45px;
-    padding-top: 45px;
-    align-content: center;
-    color: #FBBF07;
-}
-
-
-
-.filau{
-    display: flex;
-}
-
-
-.filad{
-    display: flex;
-    padding-bottom: 70px;
-}
-
-
-.update10{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    height: 20vh;
-    margin-right: 5vw;
-    margin-left: 10vw;
-    margin-top: 90px;
-    transition: all 0.7s ease;
-}
-
-.update10:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 65vw;
-}
-
-
-.update11{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    padding-bottom: 0px;
-    margin-right: 5vw;
-    height: 20vh;
-    margin-top: 90px;
-    transition: all 0.7s ease;
-}
-
-.update11:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 45vw;
-}
-
-
-.update12{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    height: 20vh;
-    margin-right: 10vw;
-    margin-top: 90px;
-    transition: all 0.7s ease;
-}
-
-.update12:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 65vw;
-}
-
-
-.update13{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    margin-right: 5vw;
-    height: 20vh;
-    margin-left: 10vw;
-    margin-top: 120px;
-    transition: all 0.7s ease;
-    margin-bottom: 100px;
-}
-
-.update13:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 65vw;
-}
-
-
-.update14{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    padding-bottom: 0px;
-    margin-right: 5vw;
-    height: 20vh;
-    margin-top: 120px;
-    transition: all 0.7s ease;
-}
-
-.update14:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 65vw;
-}
-
-
-.update15{
-    display: flex;
-    background-color: black;
-    color: white;
-    flex-direction: column;
-    border-radius: 45px;
-    height: 20vh;
-    margin-right: 10vw;
-    margin-top: 120px;
-    transition: all 0.7s ease;
-}
-
-.update15:hover{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 65vw;
-}
-
-ul{
-    list-style: none;
-}
-
-
-
-
-
 .about{
     width: 100vw;
     height: 100vh;
-    background-color: #131A1D;
+    background-color: #2D2D2D;
 }
 
 .texto_about{
     font-size: 45px;
     padding-top: 120px;
-    color: #FBBF07;
+    color: red;
+
+}
+
+.about h3{
+    text-align: center;
 }
 
 .Descripcion{
-    display: flex;
     width: 50vw;
     height: 50vh;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
 
+.about a{
+    text-align: center;
+    align-items: center;
 }
 
 .todoa{
@@ -400,18 +251,251 @@ ul{
     padding-top: 20px;
 }
 
+
+
+
+
+.actualizaciones{
+    background-color: #131A1D;
+    width: 100vw;
+    height: 100vh;
+ }
+
+ .text_actualizaciones h3{
+    text-align: center;
+ }
+ 
+ 
+ .texto_actualizaciones{
+    font-size: 45px;
+    padding-top: 115px;
+    align-content: center;
+    color: red;
+    text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .filau{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .filad{
+    display: flex;
+    padding-bottom: 70px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .update10{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+    align-content: center;
+ }
+ 
+ 
+ .update10:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update11{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    padding-bottom: 0px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update11:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 45vw;
+ }
+ 
+ 
+ 
+ 
+ .update12{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 10vw;
+    margin-top: 90px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update12:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update13{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+    margin-bottom: 100px;
+ }
+ 
+ 
+ .update13:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update14{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    padding-bottom: 0px;
+    margin-right: 5vw;
+    height: 20vh;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update14:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ 
+ 
+ .update15{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    border-radius: 45px;
+    height: 20vh;
+    margin-right: 10vw;
+    margin-top: 120px;
+    transition: all 0.7s ease;
+ }
+ 
+ 
+ .update15:hover{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 65vw;
+ }
+ 
+ 
+ ul{
+    list-style: none;
+ }
+ 
+
+
+
+
+
+
 .contact{
     width: 100vw;
     height: 100vh;
-    background-color:beige;
+    background-color:#2D2D2D;
+}
+
+.contact h3{
+    text-align: center;
 }
 
 .todo_contact{
     background-color: black;
     width: 30vw;
-    height: 15vh;
+    height: 35vh;
     color: white;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-left: 70px;
+}
+
+.contact_uno{
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.contact_dos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.contact_tres{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 27px; 
+}
+
+.redes_sociales{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 243px;
+    align-items: flex-end;
 }
